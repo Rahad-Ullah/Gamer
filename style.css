@@ -263,3 +263,34 @@
 .feature-overlap img{
     width: 100%;
 }
+
+
+/* ---------- Tags Section ------------ */
+.tag-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 120px 0;
+    gap: 20px;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 2px solid white;
+}
+.tag:hover{
+    border-color: #FF42A5;
+    color: #FF42A5;
+}
+.tag img{
+    width: 40px;
+}
