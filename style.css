@@ -233,3 +233,33 @@
 }
 
 
+/* --------- Feature section ----------- */
+.feature-section{
+    padding-bottom: 120px;
+}
+.feature-content{
+    width: 35%;
+    margin-left: 80px;
+    text-align: right;
+}
+.feature-title span{
+    background: linear-gradient(180deg, #0B0223 0%, #0B0223 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0B0223;
+}
+.feature-img{
+    width: 40%;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-overlap{
+    width: 20%;
+    position: relative;
+    top: 150px;
+    left: 110px;
+}
+.feature-overlap img{
+    width: 100%;
+}
