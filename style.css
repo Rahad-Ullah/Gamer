@@ -20,10 +20,7 @@
 .section-title{
     font-size: 40px;
     font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #0B0223;
 }
 .section-description{
     color: #534C64;
@@ -31,6 +28,12 @@
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
+}
+.gradient-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .bg-primary{
     background-color: #FF42A5;
@@ -41,7 +44,7 @@
     border-radius: 48px;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
@@ -57,7 +60,7 @@
     border-radius: 48px;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
@@ -77,18 +80,22 @@
     padding: 25px 0;
     background-color: white;
 }
-.nav-logo{
+.logo{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.nav-logo img{
-    width: 80px;
+.logo img{
+    width: 70px;
 }
-.nav-logo h2{
-    font-size: 45px;
+.logo h2{
+    font-size: 40px;
     font-weight: 700;
+    color: #0B0223;
+}
+.logo h2 span{
+    color: #FF42A5;
 }
 .nav-menu{
     list-style: none;
@@ -100,7 +107,7 @@
 .nav-menu li a{
     text-decoration: none;
     color: #3C354F;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding: 10px;
     border-radius: 8px;
@@ -110,9 +117,14 @@
     color: #FF42A5;
 }
 .nav-menu li:last-child{
-    padding: 10px 20px;
+    padding: 0px 15px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+}
+.nav-menu li:last-child i{
+    font-size: 20px;
 }
 
 
@@ -133,10 +145,6 @@
     font-size: 68px;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .banner-text{
     margin-top: 24px;
@@ -146,10 +154,14 @@
 }
 .banner-text ul li{
     color: #534C64;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: lowercase;
     margin: 8px 0;
+}
+.banner-text i{
+    margin-right: 5px;
+    color: #FF42A5;
 }
 
 .banner-btn{
@@ -242,12 +254,6 @@
     margin-left: 80px;
     text-align: right;
 }
-.feature-title span{
-    background: linear-gradient(180deg, #0B0223 0%, #0B0223 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #0B0223;
-}
 .feature-img{
     width: 40%;
 }
@@ -284,8 +290,8 @@
     padding: 5px;
     background-color: white;
     border-radius: 50px;
-    font-size: 16px;
-    border: 2px solid white;
+    font-weight: 600;
+    border: 1px solid white;
 }
 .tag:hover{
     border-color: #FF42A5;
@@ -293,4 +299,60 @@
 }
 .tag img{
     width: 40px;
+}
+.tag p{
+    color: #0B0223;
+}
+
+
+/* ------- Footer section ---------- */
+.footer-section{
+    background-color: #0B0223;
+    padding: 120px 0;
+    text-align: center;
+}
+.footer-logo h2{
+    color: white;
+}
+.footer-links, .social-links, .support-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+    color: #FF42A5;
+}
+.footer-links{
+    margin: 56px 0;
+    padding: 10px;
+}
+.footer-links li a{
+    font-weight: 600;
+}
+.social-links{
+    gap: 40px;
+}
+.social-links i{
+    font-size: 28px;
+}
+.support-links{
+    margin-top: 60px;
+    padding: 10px;
+}
+.support-links li a{
+    font-size: 14px;
+}
+.copyright{
+    color: white;
+    display: block;
+    padding: 10px 0;
+    margin-top: 10px;
 }
