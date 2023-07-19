@@ -18,7 +18,7 @@
     color: #ff42a5;
 }
 .section-title{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -41,7 +41,7 @@
     border-radius: 48px;
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
@@ -57,7 +57,7 @@
     border-radius: 48px;
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
@@ -115,5 +115,121 @@
     background: rgba(11, 2, 35, 0.10);
 }
 
+
+
+/* ----- banner section -------- */
+.banner-section{
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner-title-sm{
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title-lg{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text{
+    margin-top: 24px;
+}
+.banner-text ul{
+    list-style: none;
+}
+.banner-text ul li{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 8px 0;
+}
+
+.banner-btn{
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+/* about section */
+.about-section{
+    padding: 90px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.about-container{
+    gap: 24px;
+}
+.about-img{
+    width: 55%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content{
+    width: 45%;
+    text-align: right;
+}
+.about-btn{
+    margin-top: 32px;
+}
+.about-caption{
+    margin-top: 24px;
+}
+.about-caption p{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+.about-caption span{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+/* ------ video section ----------- */
+.videos-section{
+    padding: 120px 0;
+}
+.videos-title, .videos-description{
+    text-align: center;
+}
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    gap: 20px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+/* .video-box{
+    width: 23%;
+} */
+.video-box img{
+    width: 100%;
+}
+.video-box p{
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 
