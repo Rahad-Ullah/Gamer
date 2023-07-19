@@ -1,3 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* typography styles */
+.row{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.color-primary{
+    color: #ff42a5;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.bg-primary{
+    background-color: #FF42A5;
+}
+.btn-primary{
+    background-color: #FF42A5;
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #c9307f;
+    transform: translateY(-2px);
+}
+.btn-secondary{
+    background-color: #4EC5F7;
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.btn-secondary:hover{
+    background-color: #2690be;
+    transform: translateY(-2px);
+}
+
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    background-color: white;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img{
+    width: 80px;
+}
+.nav-logo h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.nav-menu li a:hover{
+    color: #FF42A5;
+}
+.nav-menu li:last-child{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
 
 
 
