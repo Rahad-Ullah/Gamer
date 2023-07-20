@@ -104,6 +104,7 @@ header{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 .nav-menu{
     list-style: none;
@@ -408,7 +409,7 @@ header{
     }
     .banner-section{
         padding: 24px 24px;
-        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        background: none;
     }
     .banner-container{
         flex-direction: column-reverse;
@@ -445,10 +446,12 @@ header{
     .tag-container{
         flex-direction: row;
     }
+    .footer-container{
+        width: 60%;
+        margin: 0 auto;
+    }
     .footer-links, .support-links{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
         gap: 50px;
     }
 }
@@ -461,7 +464,7 @@ header{
         padding: 100px 16px;
     }
     .section-title{
-        font-size: 38px;
+        font-size: 40px;
     }
     .section-description{
         font-size: 16px;
@@ -469,11 +472,14 @@ header{
     .btn-primary, .btn-secondary{
         font-size: 16px;
     }
+    header{
+        box-shadow: none;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
     .nav-menu li a{
         font-size: 16px;
-    }
-    .nav-menu li:last-child{
-        display: none;
     }
     .about-img{
         width: 100%;
@@ -488,6 +494,18 @@ header{
     .feature-overlap{
         left: 18%;
         top: 10vh;
+    }
+    .tag-container{
+        gap: 10px;
+    }
+    .tag{
+        gap: 5px;
+    }
+    .tag img{
+        width: 35px;
+    }
+    .tag p{
+        font-size: 16px;
     }
     .social-links{
         flex-wrap: wrap;
