@@ -7,6 +7,10 @@
 }
 
 /* typography styles */
+body{
+    max-width: 1536px;
+    margin: 0 auto;
+}
 .row{
     width: 75%;
     margin: 0 auto;
